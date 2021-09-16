@@ -218,7 +218,7 @@ new Object({
   getFinalCode: function(code) { /* Function who returns the usable code */
     return '/**\n'
     + ' * Made with DuckyGen, an open-source project.\n'
-    + ' * GreyHelmet Sec http://www.greyhelmet.net/.\n'
+    + ' * GreyHelmet Sec \'http://www.greyhelmet.net/'\n'
     + ' */\n\n'
     + '#include "Keyboard.h"\n\n'
     + 'void typeKey(uint8_t key)\n'

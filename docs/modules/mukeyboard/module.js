@@ -217,8 +217,9 @@ new Object({
 
   getFinalCode: function(compiledCode) { /* Function who returns the usable code */
     return '/**\n'
-    + ' * Made for DuckyGen with MuKeyboard.\n'
-    + ' * GreyHelmet Sec http://www.greyhelmet.net/'\n
+    + ' * Made for Duckuino with MuKeyboard.\n'
+    + ' * Check the Duckuino\'s license at \'https://github.com/Nurrl/Duckuino/blob/master/LICENSE\'\n'
+    + ' * Check the MuKeyboard project at \'https://github.com/MrMoDDoM/MuKeyboard\'\n'
     + ' */\n\n'
     + '#include "MuKeyboard.h"\n\n'
     + 'void typeKey(uint8_t key)\n'
