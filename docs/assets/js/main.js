@@ -6,7 +6,7 @@ $(function() { /* Wait for jQuery */
 
   /* Init lets */
   let isCodeCompiled = false;
-  let Duck = new DuckyGen();
+  let Duck = new Duckuino();
   let mods = new Modules().list;
 
   try {
@@ -41,7 +41,7 @@ $(function() { /* Wait for jQuery */
     let duckyScript = $(".input > #input").val();
     let selectedModule = mods[$(".process-but select").find(":selected").val()];
 
-    /* Load DuckyGen & Compile */
+    /* Load Duckuino & Compile */
     let compilerOut = Duck.compileCode(duckyScript, selectedModule.module);
 
     /* Check for error */
