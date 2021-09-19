@@ -2,5 +2,5 @@
 http://www.greyhelmet.net/ 
 
 # DuckyGen 0.6V. by G.Zaballa 
-Generador de Script de Rubber Ducky para arduino
+Generador de Script de Rubber Ducky para Arduino
 https://killerpop.github.io/DuckyGen/
